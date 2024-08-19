@@ -18,3 +18,15 @@ git add . 將所有的檔案都丟到暫存區
 拍照指令 git commit
 修改
 要存檔前要先確認資料夾路徑是否正確 否則會無法儲存5
+git log --oneline 可以查詢修改備註與檔案
+git diff 檔案編號 可以查詢先前檔案修改錢的差異
+git checkout 檔案編號 可以回覆先前檔案
+如果無法船上去 有可能是git 的master branch 不在最一開始的頭部
+因此需要打git status  查看狀態 如果出現 紅字 代表頭部分支並未出現在最完整的狀態 
+可以打git checkout master
+他就會幫你修正為最新的是頭 
+然後在檢查 git status  出現 On branch master
+就可以上傳三步驟 
+git remote add origin https://github.com/chung-2000/-.git
+git branch -M main
+git push -u origin main
