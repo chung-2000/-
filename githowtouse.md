@@ -1,6 +1,8 @@
-git config use.name/.email 查看使用者名稱 email
-git config --global user.name "名稱"設定使用者名稱 name後面一定要有空格
-git config --global user.email "chung7113040006@gmail.com" 設定使用者email 
+git config use.name/.email 查看使用者名稱 email  \\
+git config --global user.name "名稱"設定使用者名稱 name後面一定要有空格  
+git config --global user.email "chung7113040006@gmail.com" 設定使用者email
+
+
 untracked 未儲存
 tracked 以追蹤
 staged 以暫存
@@ -30,3 +32,5 @@ git checkout 檔案編號 可以回覆先前檔案
 git remote add origin https://github.com/chung-2000/-.git
 git branch -M main
 git push -u origin main
+如果後續修改其文件 
+則是打 31 與32兩個指令及可
