@@ -28,17 +28,18 @@ git checkout 檔案編號 可以回覆先前檔案
 然後在檢查 git status  出現 On branch master
 就可以上傳三步驟 
 git remote add origin https://github.com/chung-2000/-.git
-git branch -M main
-git push -u origin main
+git branch -M main #主要路徑
+git push -u origin main #主要路徑2
 如果後續修改其文件 
-則是打 31 與32兩個指令及可
+則是打 
+git push 
+就可以更新
 更新最主要指令 
 ctrl + s                儲存
 git add                 加入到暫存
 git status              確認狀況
 git cimmit -m""         存最新檔
-git branch -M main      上傳第一步
-git push -u origin main 上傳第二部
+git push 
 ---
 文件夾裡面不需要特別安裝git inig 
 不然會無法上傳 
