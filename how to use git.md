@@ -39,3 +39,10 @@ git status              確認狀況
 git cimmit -m""         存最新檔
 git branch -M main      上傳第一步
 git push -u origin main 上傳第二部
+---
+文件夾裡面不需要特別安裝git inig 
+不然會無法上傳 
+然後如若新增檔案 
+直接git add 資料夾名稱 
+再來就是上傳步驟 
+---
