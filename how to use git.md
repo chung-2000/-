@@ -1,8 +1,6 @@
-1.git config use.name/.email 查看使用者名稱 email  
-2.git config --global user.name "名稱"設定使用者名稱 name後面一定要有空格 
-3.git config --global user.email "chung7113040006@gmail.com" 設定使用者email
-
-
+git config use.name/.email 查看使用者名稱 email  
+git config --global user.name "名稱"設定使用者名稱 name後面一定要有空格 
+git config --global user.email "chung7113040006@gmail.com" 設定使用者email
 untracked 未儲存
 tracked 以追蹤
 staged 以暫存
@@ -34,3 +32,10 @@ git branch -M main
 git push -u origin main
 如果後續修改其文件 
 則是打 31 與32兩個指令及可
+更新最主要指令 
+ctrl + s                儲存
+git add                 加入到暫存
+git status              確認狀況
+git cimmit -m""         存最新檔
+git branch -M main      上傳第一步
+git push -u origin main 上傳第二部
