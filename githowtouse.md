@@ -1,6 +1,6 @@
-git config use.name/.email 查看使用者名稱 email  \\
-git config --global user.name "名稱"設定使用者名稱 name後面一定要有空格  
-git config --global user.email "chung7113040006@gmail.com" 設定使用者email
+1.git config use.name/.email 查看使用者名稱 email  
+2.git config --global user.name "名稱"設定使用者名稱 name後面一定要有空格 
+3.git config --global user.email "chung7113040006@gmail.com" 設定使用者email
 
 
 untracked 未儲存
