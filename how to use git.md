@@ -45,5 +45,7 @@ git push
 不然會無法上傳 
 然後如若新增檔案 
 一樣對文件夾裡的檔案ctrl + s 進入M狀態
-然後git add 就可以 
+然後git add . 就可以保存文件
+git commit -m ""
+後續在git push 就好 
 ---
