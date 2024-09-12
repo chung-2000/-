@@ -38,7 +38,7 @@ git push
 ctrl + s                儲存
 git add                 加入到暫存
 git status              確認狀況
-git cimmit -m""         存最新檔
+git commit -m""         存最新檔
 git push 
 ---
 文件夾裡面不需要特別安裝git inig 
